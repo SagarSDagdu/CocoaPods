@@ -8,15 +8,11 @@ To install release candidates run `[sudo] gem install cocoapods --pre`
 
 ##### Enhancements
 
-* None.  
+* None.
 
 ##### Bug Fixes
 
 * None.
-
-##### Enhancements
-
-* None.  
 
 ## 1.10.2.3-runtastic.4 (2023-08-2x)
 
@@ -25,6 +21,10 @@ _Note: Now following proper SemVer rules by bumping beta version numbers instead
 * Fix publishing podspecs with watchOS support on Xcode 14
   [Justin Martin](https://github.com/justinseanmartin)
   [#11660](https://github.com/CocoaPods/CocoaPods/pull/11660)
+
+# Xcode 14.3 fix: `pod lib lint` warning generation from main.m.
+  [Paul Beusterien](https://github.com/paulb777)
+  [#11846](https://github.com/CocoaPods/CocoaPods/issuess/11846)
 
 ## 1.10.2.3-runtastic (2023-08-23)
 
