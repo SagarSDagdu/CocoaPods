@@ -12,6 +12,26 @@ To install release candidates run `[sudo] gem install cocoapods --pre`
 
 ##### Bug Fixes
 
+* None.
+
+##### Enhancements
+
+* None.  
+
+## 1.10.2.3-runtastic.4 (2023-08-2x)
+
+_Note: Now following proper SemVer rules by bumping beta version numbers instead of bumping build numbers.
+
+* Fix publishing podspecs with watchOS support on Xcode 14
+  [Justin Martin](https://github.com/justinseanmartin)
+  [#11660](https://github.com/CocoaPods/CocoaPods/pull/11660)
+
+## 1.10.2.3-runtastic (2023-08-23)
+
+* MOD increased minimum deployment target to iOS 13.0 when linting project to fix Xode 14.3 compiler errors (was iOS 8.0 before)
+
+## 1.10.2.2-runtastic (2022-12-16)
+
 * Set `INFOPLIST_FILE` build setting to `$(SRCROOT)/App/App-Info.plist` during lint.  
   [Dimitris Koutsogiorgas](https://github.com/dnkoutso)
   [#10927](https://github.com/CocoaPods/CocoaPods/issues/10927)
@@ -19,13 +39,6 @@ To install release candidates run `[sudo] gem install cocoapods --pre`
 * Set `PRODUCT_BUNDLE_IDENTIFIER` for generated app during lint.  
   [Dimitris Koutsogiorgas](https://github.com/dnkoutso)
   [#10933](https://github.com/CocoaPods/CocoaPods/issues/10933)
-
-
-## 1.11.0 (2021-09-01)
-
-##### Enhancements
-
-* None.  
 
 ## 1.10.2.1-runtastic (2022-06-22)
 

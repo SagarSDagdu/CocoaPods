@@ -807,7 +807,7 @@ module Pod
         Executable.expects(:execute_command).with('xcodebuild', command + args, true).once.returns('')
         args = %w(CODE_SIGN_IDENTITY=- -sdk iphonesimulator) + Fourflusher::SimControl.new.destination('iPhone 4s')
         Executable.expects(:execute_command).with('xcodebuild', command + args, true).once.returns('')
-        args = %w(CODE_SIGN_IDENTITY=- -sdk watchsimulator) + Fourflusher::SimControl.new.destination('Apple Watch - 38mm')
+        args = %w(CODE_SIGN_IDENTITY=- -sdk watchsimulator)
         Executable.expects(:execute_command).with('xcodebuild', command + args, true).once.returns('')
         validator.validate.should == true
       end
@@ -838,7 +838,7 @@ module Pod
         Executable.expects(:execute_command).with('xcodebuild', command + args, true).once.returns('')
         args = %w(CODE_SIGN_IDENTITY=- -sdk iphonesimulator) + Fourflusher::SimControl.new.destination('iPhone 4s') + analyzer_args
         Executable.expects(:execute_command).with('xcodebuild', command + args, true).once.returns('')
-        args = %w(CODE_SIGN_IDENTITY=- -sdk watchsimulator) + Fourflusher::SimControl.new.destination('Apple Watch - 38mm') + analyzer_args
+        args = %w(CODE_SIGN_IDENTITY=- -sdk watchsimulator) + analyzer_args
         Executable.expects(:execute_command).with('xcodebuild', command + args, true).once.returns('')
         validator.validate.should == true
       end
@@ -862,7 +862,7 @@ module Pod
         Executable.expects(:execute_command).with('xcodebuild', command + args, true).once.returns('')
         args = %w(CODE_SIGN_IDENTITY=- -sdk iphonesimulator) + Fourflusher::SimControl.new.destination('iPhone 4s')
         Executable.expects(:execute_command).with('xcodebuild', command + args, true).once.returns('')
-        args = %w(CODE_SIGN_IDENTITY=- -sdk watchsimulator) + Fourflusher::SimControl.new.destination('Apple Watch - 38mm')
+        args = %w(CODE_SIGN_IDENTITY=- -sdk watchsimulator)
         Executable.expects(:execute_command).with('xcodebuild', command + args, true).once.returns('')
         validator.validate
       end
