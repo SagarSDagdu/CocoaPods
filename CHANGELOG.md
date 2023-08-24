@@ -14,11 +14,21 @@ To install release candidates run `[sudo] gem install cocoapods --pre`
 
 * None.
 
-## 1.10.2.3-runtastic.4 (2023-08-2x)
+## 1.10.2.3-runtastic.5 (2023-08-24)
 
-_Note: Now following proper SemVer rules by bumping beta version numbers instead of bumping build numbers.
+##### Enhancements
 
-* Fix publishing podspecs with watchOS support on Xcode 14
+* Add the ability to download pods in parallel (`:parallel_pod_downloads`)  
+  [Seth Friedman](https://github.com/sethfri)
+  [#11232](https://github.com/CocoaPods/CocoaPods/pull/11232)
+
+## 1.10.2.3-runtastic.4 (2023-08-24)
+
+_Note: Now following proper SemVer rules by bumping beta versions instead of build numbers.
+
+##### Bug Fixes
+
+* Fix publishing podspecs with watchOS support on Xcode 14  
   [Justin Martin](https://github.com/justinseanmartin)
   [#11660](https://github.com/CocoaPods/CocoaPods/pull/11660)
 
@@ -27,7 +37,7 @@ _Note: Now following proper SemVer rules by bumping beta version numbers instead
   [#11828](https://github.com/CocoaPods/CocoaPods/pull/11828)
   [#11808](https://github.com/CocoaPods/CocoaPods/issues/11808)
 
-# Xcode 14.3 fix: `pod lib lint` warning generation from main.m.
+# Xcode 14.3 fix: `pod lib lint` warning generation from main.m.  
   [Paul Beusterien](https://github.com/paulb777)
   [#11846](https://github.com/CocoaPods/CocoaPods/issuess/11846)
 
