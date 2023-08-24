@@ -22,6 +22,11 @@ _Note: Now following proper SemVer rules by bumping beta version numbers instead
   [Justin Martin](https://github.com/justinseanmartin)
   [#11660](https://github.com/CocoaPods/CocoaPods/pull/11660)
 
+* Xcode 14.3 fix: Pass the -f option when resolving the path to the symlinked source.  
+  [Chris Vasselli](https://github.com/chrisvasselli)
+  [#11828](https://github.com/CocoaPods/CocoaPods/pull/11828)
+  [#11808](https://github.com/CocoaPods/CocoaPods/issues/11808)
+
 # Xcode 14.3 fix: `pod lib lint` warning generation from main.m.
   [Paul Beusterien](https://github.com/paulb777)
   [#11846](https://github.com/CocoaPods/CocoaPods/issuess/11846)
