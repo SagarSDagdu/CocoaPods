@@ -119,7 +119,7 @@ GIT
 PATH
   remote: .
   specs:
-    cocoapods (1.15.2)
+    cocoapods (1.15.2.1.pre.runtastic)
       addressable (~> 2.8)
       claide (>= 1.0.2, < 2.0)
       cocoapods-core (= 1.15.2)
